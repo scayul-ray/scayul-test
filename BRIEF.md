@@ -1,23 +1,23 @@
 # Scayul Coding Exercise
 
-**API: eBay Shopping API**
-- DOCS: http://developer.ebay.com/Devzone/shopping/docs/Concepts/ShoppingAPIGuide.html
+**API: Linkedin API**
+- DOCS: https://learn.microsoft.com/en-us/linkedin/
 
 
 **Create an Application to allow the user:**
 - To enter one or multiple keywords. 
-- The application should retrieve the top 50 items listed on eBay.com.au
+- The application should utilize the LinkedIn API to retrieve relevant LinkedIn contacts based on the provided keywords.
 - Display relevant information relating to these products in tabular format
 - Provide an option to download information as a CSV.
 
 
-**The application should also provide a summary of the following metrics based on the 50 items list:**
+**The application should also provide a summary of the following metrics based on the 50 contacts based on the keywords:**
 
-- **Seller Rating Average [X]:**
-  - Calculate and display the average seller rating for the top 50 items.
-- **Number of Sellers [X]:**
-  - Count the number of unique sellers among the top 50 items. 
-- **Top Product Category [X]:** 
-  - Identify and display the most frequently occurring product category among the top 50 items.
-- **Average Feedback Score [X]:**
-  - Calculate and display the average feedback score of sellers among the top 50 items.
+- **Average character length of the contact's name [X]:**
+  - Calculate the average character length of the full names of the retrieved contacts
+- **% of contacts with shared LinkedIn groups [X]::**
+  - Determine the percentage of contacts that have one or more LinkedIn groups in common with the user.
+- **Employment history: average, min, and max years of experience [X]:** 
+  - For contacts with employment history data available, calculate the average, minimum, and maximum number of years of experience based on their job tenure.
+- **Additional functionality relevant for businesses like Scayul [X]:**
+  - Implement features that would be relevant to Scayul, such as identifying common connections, mutual interests, or any other data that can assist Scayul in their business operations.
