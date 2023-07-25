@@ -15,7 +15,7 @@
 
 - **Average character length of the contact's name [X]:**
   - Calculate the average character length of the full names of the retrieved contacts
-- **% of contacts with shared LinkedIn groups [X]::**
+- **% of contacts with shared LinkedIn groups [X]:**
   - Determine the percentage of contacts that have one or more LinkedIn groups in common with the user.
 - **Employment history: average, min, and max years of experience [X]:** 
   - For contacts with employment history data available, calculate the average, minimum, and maximum number of years of experience based on their job tenure.
